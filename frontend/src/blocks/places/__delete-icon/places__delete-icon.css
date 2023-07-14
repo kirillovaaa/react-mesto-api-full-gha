@@ -1,0 +1,9 @@
+.places__delete-icon {
+  width: 18px;
+  height: 19px;
+}
+
+.places__delete-icon:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}

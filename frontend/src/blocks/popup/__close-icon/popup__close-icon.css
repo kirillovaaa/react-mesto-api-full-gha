@@ -1,0 +1,15 @@
+.popup__close-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.popup__close-icon:hover {
+  cursor: pointer;
+}
+
+@media all and (min-width: 918px) {
+  .popup__close-icon {
+    width: 32px;
+    height: 32px;
+  }
+}

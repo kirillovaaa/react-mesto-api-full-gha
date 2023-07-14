@@ -1,0 +1,14 @@
+.signup__login-button {
+  margin-bottom: 80px;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.signup__login-button:hover {
+  opacity: 0.6;
+}

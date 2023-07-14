@@ -1,0 +1,10 @@
+.profile__avatar-wrapper {
+  display: flex;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile__avatar-wrapper:hover > .profile__avatar-edit {
+  opacity: 1;
+}

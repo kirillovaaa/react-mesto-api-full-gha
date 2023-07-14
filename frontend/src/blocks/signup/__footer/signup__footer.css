@@ -1,0 +1,6 @@
+.signup__footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 216px;
+}
