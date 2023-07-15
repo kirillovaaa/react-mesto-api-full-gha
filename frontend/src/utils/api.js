@@ -122,9 +122,11 @@ class Api {
   };
 }
 
-export default new Api({
-  baseUrl: "https://auth.nomoreparties.co",
+const api = new Api({
+  baseUrl: "https://mesto-backend.nomoredomains.xyz",
   headers: {
     "Content-Type": "application/json",
   },
 });
+
+export default api;
