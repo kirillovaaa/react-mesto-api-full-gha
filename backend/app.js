@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 const express = require('express');
+const cors = require('cors');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const { errors } = require('celebrate');
@@ -21,6 +22,15 @@ const port = 3000;
 
 // подключаемся к БД
 mongoose.connect('mongodb://localhost:27017/mestodb');
+
+// подключаем cors middleware
+app.use(cors({
+  origin: [
+    'https://mesto-frontend.nomoredomains.xyz',
+    'http://mesto-frontend.nomoredomains.xyz',
+  ],
+  methods: ['GET', 'POST', 'PATCH', 'PUT', 'DELETE'],
+}));
 
 // подключаем json парсер
 app.use(bodyParser.json());
