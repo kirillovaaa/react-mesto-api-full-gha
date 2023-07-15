@@ -29,7 +29,8 @@ app.use(cors({
     'https://mesto-frontend.nomoredomains.xyz',
     'http://mesto-frontend.nomoredomains.xyz',
   ],
-  methods: ['GET', 'POST', 'PATCH', 'PUT', 'DELETE'],
+  methods: ['GET', 'POST', 'PATCH', 'PUT', 'DELETE', 'OPTIONS'],
+  credentials: true,
 }));
 
 // подключаем json парсер
