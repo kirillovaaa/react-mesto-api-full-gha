@@ -11,6 +11,6 @@
 
 IP-адрес 158.160.101.210
 
-Frontend https://mesto-frontend.nomoredomains.xyz/signin
+Frontend https://mesto-frontend.nomoredomains.xyz
 
-Backend https://mesto-backend.nomoredomains.xyz/signin
+Backend https://mesto-backend.nomoredomains.xyz
