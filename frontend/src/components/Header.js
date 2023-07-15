@@ -3,11 +3,6 @@ import { Link, Routes, Route } from "react-router-dom";
 import CurrentUserContext from "../contexts/CurrentUserContext";
 import logo from "../images/logo.svg";
 
-/**
- * TODO:
- * 1. сделать все стили
- * 2. функционал кнопки выхода
- */
 const Header = ({ onLogout }) => {
   const currentUser = useContext(CurrentUserContext);
 
