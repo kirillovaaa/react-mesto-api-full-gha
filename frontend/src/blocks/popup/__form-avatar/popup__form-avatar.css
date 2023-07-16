@@ -1,0 +1,11 @@
+.popup__form-avatar > h2 {
+  margin-bottom: 54px;
+}
+
+.popup__form-avatar > .popup__input-wrapper:first-of-type {
+  margin-bottom: 0;
+}
+
+.popup__form-avatar > .popup__save-button {
+  margin-top: 48px;
+}

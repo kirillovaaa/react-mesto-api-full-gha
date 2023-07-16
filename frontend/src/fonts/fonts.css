@@ -1,0 +1,18 @@
+/* Обычный */
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: url(Inter-Regular.woff);
+}
+/* Средний */
+@font-face {
+  font-family: "Inter";
+  font-weight: 500;
+  src: url(Inter-Medium.woff);
+}
+/* Очень жирный */
+@font-face {
+  font-family: "Inter";
+  font-weight: 900;
+  src: url(Inter-Black.woff);
+}

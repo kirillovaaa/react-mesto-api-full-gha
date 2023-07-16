@@ -1,0 +1,14 @@
+.places__fav-button {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  gap: 3px;
+  border: 0;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.places__fav-button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

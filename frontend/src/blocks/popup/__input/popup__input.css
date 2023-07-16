@@ -1,0 +1,15 @@
+.popup__input {
+  border: 0;
+  border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
+  width: 100%;
+  padding: 0;
+  padding-bottom: 13px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.popup__input:focus-visible {
+  outline: none;
+  border-bottom: 1px rgba(0, 0, 0) solid;
+}
