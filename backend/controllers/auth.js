@@ -12,17 +12,20 @@ const { UnauthorizedError } = require('../errors/UnauthorizedError');
 const validateCredentials = (email, password) => {
   let userData;
 
-  return User.findOne({ email }).select('+password')
+  return User.findOne({ email })
+    .select('+password')
     .then((user) => {
       if (!user) {
-        return Promise.reject(new UnauthorizedError('Пользователь с данным email не найден'));
+        return Promise.reject(
+          new UnauthorizedError('Пользователь с данным email не найден'),
+        );
       }
       userData = user;
       return bcrypt.compare(password, user.password);
     })
     .then((matched) => {
       if (!matched) {
-      // хеши не совпали — отклоняем промис
+        // хеши не совпали — отклоняем промис
         return Promise.reject(new UnauthorizedError('Неправильный пароль'));
       }
       // если ошибки не вызвались, то все верно!
