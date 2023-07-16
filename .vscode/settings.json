@@ -1,0 +1,8 @@
+{
+  "prettier.enable": false,
+  "eslint.workingDirectories": ["/backend"],
+  "eslint.validate": ["javascript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}
